@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.15.0'
+    testImplementation 'junit:junit:4.13.2'
+}
